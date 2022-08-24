@@ -1,0 +1,232 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/*a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}*/
+
+/* Provide sufficient contrast against white background */
+/*a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {*/
+  /* Margin bottom by footer height */
+  /*margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;*/ /* Vertically center the text there */
+/*}*/
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 100%) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /*  margin-bottom: 60px;*/
+    background-color: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    width: 350px;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    color: #fbfcfd;
+    padding: 10px 25px;
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.content {
+    color: #fbfcfd;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    transform: translateY(=50%);
+    z-index: 2;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 10px 0 30px;
+    line-height: 60px;
+}
+
+.side-bar {
+    width: 50px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu {
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: crosshair;
+}
+
+.Bubbles img {
+    width: 50px;
+    animation: Bubble 7s linear infinite;
+}
+
+.Bubbles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -270px;
+}
+
+@keyframes Bubble {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.Bubbles img:nth-child(7) {
+    width: 25px;
+    animation-delay: 7s
+}
+
+.Bubbles img:nth-child(2) {
+    width: 105px;
+    animation-delay: 2s
+}
+
+.Bubbles img:nth-child(3) {
+    animation-delay: 3s width: 305px;
+}
+
+.Bubbles img:nth-child(1) {
+    animation-delay: 1s
+}
+
+.Bubbles img:nth-child(4) {
+    width: 205px;
+    animation-delay: 4.5s
+}
+       
+.Bubbles img:nth-child(5) {
+    width: 105px;
+    animation-delay: 5s
+}
+
+.Bubbles img:nth-child(6) {
+    animation-delay: 6s
+}
+
+.header1 {
+    color: dodgerblue;
+    font-size: 60px;
+}
+
+
